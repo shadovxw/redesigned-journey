@@ -1,0 +1,18 @@
+{
+  "accuracy": 0.7371794871794872,
+  "precision": 0.7054545454545454,
+  "recall": 0.9948717948717949,
+  "auc": 0.9256465044926583,
+  "confusion_matrix": [
+    [
+      72,
+      162
+    ],
+    [
+      2,
+      388
+    ]
+  ],
+  "model_path": "output/simple_cnn.h5",
+  "history_csv": "output/history.csv"
+}

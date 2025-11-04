@@ -68,7 +68,7 @@ if model_path and os.path.exists(model_path):
                 prob = float(model.predict(np.expand_dims(arr, axis=0))[0][0])
                 pred = "PNEUMONIA" if prob>=0.5 else "NORMAL"
                 with cols[i % 3]:
-                    st.image(img, caption=f"{os.path.basename(img_path)}\nPred: {pred} ({prob:.2f})", use_column_width=True)
+                    st.image(img, caption=f"{os.path.basename(img_path)}\nPred: {pred} ({prob:.2f})", use_container_width=True)
             except Exception as e:
                 st.write("Error loading", img_path, e)
 else:
