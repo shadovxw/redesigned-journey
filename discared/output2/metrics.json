@@ -1,0 +1,18 @@
+{
+  "accuracy": 0.7259615384615384,
+  "precision": 0.9294117647058824,
+  "recall": 0.6076923076923076,
+  "auc": 0.892077580539119,
+  "confusion_matrix": [
+    [
+      216,
+      18
+    ],
+    [
+      153,
+      237
+    ]
+  ],
+  "model_path": "output/simple_cnn.keras",
+  "history_csv": "output/history.csv"
+}

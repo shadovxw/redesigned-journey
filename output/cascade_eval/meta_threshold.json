@@ -1,0 +1,21 @@
+{
+  "threshold": 0.30492,
+  "recall_target": 0.99,
+  "val_metrics_at_pick": {
+    "precision": 0.7272727272727273,
+    "recall": 1.0,
+    "f1": 0.8421052631578947,
+    "accuracy": 0.8125,
+    "auc": 0.90625,
+    "confusion_matrix": [
+      [
+        5,
+        3
+      ],
+      [
+        0,
+        8
+      ]
+    ]
+  }
+}
